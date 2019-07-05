@@ -5,7 +5,6 @@ import org.springframework.web.servlet.config.annotation.ViewControllerRegistry;
 import org.springframework.web.servlet.config.annotation.WebMvcConfigurer;
 
 @Configuration
-//@ComponentScan("com.molokotech.oauth")
 public class PageConfig implements WebMvcConfigurer {
 
 	@Override
