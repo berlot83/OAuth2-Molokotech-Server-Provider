@@ -10,7 +10,7 @@ import org.springframework.security.oauth2.config.annotation.web.configurers.Aut
 
 @Configuration
 @EnableAuthorizationServer
-public class OAuthServerConfig extends AuthorizationServerConfigurerAdapter{
+public class AuthServerConfig extends AuthorizationServerConfigurerAdapter{
 	
     @Value("${user.oauth.clientId}")
     private String ClientID;
@@ -21,7 +21,7 @@ public class OAuthServerConfig extends AuthorizationServerConfigurerAdapter{
     
 	private final PasswordEncoder passwordEncoder;
 	    
-	    public OAuthServerConfig(PasswordEncoder passwordEncoder) {
+	    public AuthServerConfig(PasswordEncoder passwordEncoder) {
 	        this.passwordEncoder = passwordEncoder;
 	    }
 

@@ -1,4 +1,4 @@
-package com.molokotech.oauth;
+package com.molokotech.auth;
 
 import java.security.Principal;
 
