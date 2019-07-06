@@ -1,4 +1,4 @@
-package com.molokotech;
+package com.molokotech.auth;
 
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.context.annotation.Bean;
